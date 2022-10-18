@@ -1,8 +1,9 @@
+0-positive_or_negative.c
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h> 
+#include <time.h>
 /**
-*main - checks if number is positive, negative or 0
+*main - prints if the number is positive, negative, or zero
 *Return: 0
 */
 int main(void)
