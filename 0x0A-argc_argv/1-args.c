@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio>
+#include "main.h"
 
 /**
  * main - Prints the number of arguments passed into main
@@ -7,6 +7,7 @@
  * @argv: Array name
  * Return: 0
  */
+
 int main(int argc, char *argv[])
 {
 	int i;
@@ -15,7 +16,8 @@ int main(int argc, char *argv[])
 		printf("%d\n", argc - 1);
 	else
 	{
-		for (i = 0; *argv; i++, argv++);
+		for (i = 0; *argv; i++, argv++)
+			;
 
 		printf("%d\n", i - 1);
 	}
