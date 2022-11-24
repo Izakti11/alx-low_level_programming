@@ -1,6 +1,6 @@
 /*
  * File: 2-add_node.c
- * Auth: Brennan D Baraban
+ * Auth: Izak
  */
 
 #include "lists.h"
