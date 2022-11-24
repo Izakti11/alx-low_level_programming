@@ -1,6 +1,6 @@
 /*
  * File: 4-free_list.c
- * Auth: Brennan D Baraban
+ * Auth: Izak
  */
 
 #include "lists.h"
